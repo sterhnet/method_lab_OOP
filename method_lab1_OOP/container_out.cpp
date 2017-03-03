@@ -9,12 +9,10 @@ namespace simple_wisdoms {
    while(cur!=NULL && n>=i)
 	{
       ofst << i << ": ";
-	  cur->wisd->Out(ofst);
-	  ofst <<": "<< cur->wisd->content;
-	  ofst << endl;
+	  cur->wisd->OutData(ofst);
 	  cur=cur->next;
 	  ++i;
     }
   }
-}// end simple_shapes namespace
+}
 
