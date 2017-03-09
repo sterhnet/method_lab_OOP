@@ -210,6 +210,10 @@
 				RelativePath=".\wisdom_In.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\wisdom_Out.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Заголовочные файлы"
@@ -248,6 +252,10 @@
 			>
 			<File
 				RelativePath=".\in.txt"
+				>
+			</File>
+			<File
+				RelativePath=".\out.txt"
 				>
 			</File>
 		</Filter>

@@ -22,6 +22,7 @@ namespace simple_wisdoms {
     }
     ws->InData(ifst);
 	ifst >> ws->content;
+	ifst >> ws->mark;
     return ws;
   }
 }

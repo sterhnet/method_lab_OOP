@@ -9,6 +9,7 @@ namespace simple_wisdoms {
   class wisdom {
   public:
 	string content;
+	int mark;
 	static  wisdom* In(ifstream &ifst);	
 	void OutData(ofstream &ofst);	
     virtual void InData(ifstream &ifst) = 0;  // ввод

@@ -10,6 +10,7 @@ namespace simple_wisdoms {
  void wisdom::OutData(ofstream &ofst) {
 	 this->Out(ofst);
 	 ofst <<": "<< content;
+	 ofst <<": Mark - "<< mark;
 	 ofst << endl;
   }
 }
