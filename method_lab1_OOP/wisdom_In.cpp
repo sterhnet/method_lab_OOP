@@ -1,11 +1,10 @@
 #include "wisdom_atd.h"
-// Необходима подключить информацию обо всех имеющихся
-// геометрических фигурах
+
 #include "proverb_atd.h"
 #include "aphorism_atd.h"
+#include "conudrum_atd.h"
 using namespace std;
 namespace simple_wisdoms {
-  // Ввод параметров обобщенной фигуры 
   wisdom* wisdom::In(ifstream &ifst) {
     wisdom *ws;
     int k;
@@ -17,10 +16,13 @@ namespace simple_wisdoms {
     case 2:
       ws = new aphorism;
 	  break;
+	case 3:
+      ws = new conudrum;
+	  break;
 	default:
       return 0;
     }
-    ws->InData(ifst);
+    ws->InData(ifst); //заполнение дочернего класса
 	ifst >> ws->content;
     return ws;
   }
