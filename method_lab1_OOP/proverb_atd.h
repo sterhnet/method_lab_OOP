@@ -9,6 +9,7 @@ namespace simple_wisdoms{
   public:
     void InData(ifstream &ifst);  // ввод
     void Out(ofstream &ofst);    // вывод 
+	void OutProverb(ofstream &ofst); 
     proverb() {} // создание без инициализации.
   };
 } 

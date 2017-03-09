@@ -9,6 +9,7 @@ namespace simple_wisdoms {
   public:
     void In(ifstream &ifst);     // ввод 
     void Out(ofstream &ofst);    // вывод 
+	void OutProverb(ofstream &ofst);    // вывод 
     void Clear();  // очистка контейнера от фигур
     container();    // инициализация контейнера
     ~container() {Clear();} // утилизация контейнера

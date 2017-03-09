@@ -195,6 +195,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\container_OutProverb.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\method_lab1.cpp"
 				>
 			</File>
@@ -207,7 +211,19 @@
 				>
 			</File>
 			<File
+				RelativePath=".\proverb_outproverb.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\wisdom_In.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\wisdom_Out.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\wisdom_OutProverb.cpp"
 				>
 			</File>
 		</Filter>
@@ -218,10 +234,6 @@
 			>
 			<File
 				RelativePath=".\aphorism_atd.h"
-				>
-			</File>
-			<File
-				RelativePath=".\bibl.h"
 				>
 			</File>
 			<File
@@ -248,6 +260,10 @@
 			>
 			<File
 				RelativePath=".\in.txt"
+				>
+			</File>
+			<File
+				RelativePath=".\out.txt"
 				>
 			</File>
 		</Filter>

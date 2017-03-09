@@ -12,7 +12,8 @@ namespace simple_wisdoms {
 	static  wisdom* In(ifstream &ifst);	
 	void OutData(ofstream &ofst);	
     virtual void InData(ifstream &ifst) = 0;  // ввод
-    virtual void Out(ofstream &ofst) = 0;     // вывод
+    virtual void Out(ofstream &ofst) = 0;  
+	virtual void OutProverb(ofstream &ofst);// вывод
   };
 } 
 #endif
