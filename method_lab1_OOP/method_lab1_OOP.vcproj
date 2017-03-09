@@ -179,6 +179,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\container_Clean.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\container_Constr.cpp"
 				>
 			</File>
@@ -188,14 +192,6 @@
 			</File>
 			<File
 				RelativePath=".\container_out.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\conudrum_In.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\conudrum_Out.cpp"
 				>
 			</File>
 			<File
@@ -214,10 +210,6 @@
 				RelativePath=".\wisdom_In.cpp"
 				>
 			</File>
-			<File
-				RelativePath=".\wisdom_Out.cpp"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="Заголовочные файлы"
@@ -229,11 +221,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\container_atd.h"
+				RelativePath=".\bibl.h"
 				>
 			</File>
 			<File
-				RelativePath=".\conudrum_atd.h"
+				RelativePath=".\container_atd.h"
 				>
 			</File>
 			<File
@@ -256,10 +248,6 @@
 			>
 			<File
 				RelativePath=".\in.txt"
-				>
-			</File>
-			<File
-				RelativePath=".\out.txt"
 				>
 			</File>
 		</Filter>
