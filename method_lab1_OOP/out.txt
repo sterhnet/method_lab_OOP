@@ -1,9 +1,10 @@
 Filled container. 
-Container contains 5 elements.
+Container contains 6 elements.
 1: It is proverb from srhdtfyguhi,jmhngfdsdfghj: dfbgfdsx
 2: It is sadfghjmnbvfdsafghjmhngbfvdszadxf' aphorism: fdg
 3: It is proverb from abcdef: afdef
 4: It is tres' aphorism: tres
 5: It is qwer' aphorism: qewr
+6: It is conudrum. Anwer is 'ewqrwewrgte'. Question: rgerhfsrdgfvs
 Empty container. 
 Container contains 0 elements.
