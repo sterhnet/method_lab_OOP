@@ -8,6 +8,8 @@ namespace simple_wisdoms {
     List *cont; // указатель на начало списка
   public:
     void In(ifstream &ifst);     // ввод 
+	void Sort();     // сортировка 
+	int compare(List* a, List* b);
     void Out(ofstream &ofst);    // вывод 
     void Clear();  // очистка контейнера от фигур
     container();    // инициализация контейнера
