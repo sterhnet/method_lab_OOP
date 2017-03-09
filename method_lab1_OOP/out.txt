@@ -1,9 +1,9 @@
 Filled container. 
 Container contains 5 elements.
-1: It is proverb from srhdtfyguhi,jmhngfdsdfghj: dfbgfdsx
-2: It is sadfghjmnbvfdsafghjmhngbfvdszadxf' aphorism: fdg
-3: It is proverb from abcdef: afdef
-4: It is tres' aphorism: tres
-5: It is qwer' aphorism: qewr
+1: It is proverb from srhdtfyguhi,jmhngfdsdfghj: dfbgfd,sx: CalcPunct = 1
+2: It is sadfghjmnbvfdsafghjmhngbfvdszadxf' aphorism: fdg: CalcPunct = 0
+3: It is proverb from abcdef: afdef: CalcPunct = 0
+4: It is tres' aphorism: tr.es: CalcPunct = 1
+5: It is qwer' aphorism: qew''"w: CalcPunct = 3
 Empty container. 
 Container contains 0 elements.

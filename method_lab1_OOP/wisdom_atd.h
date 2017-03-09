@@ -9,8 +9,9 @@ namespace simple_wisdoms {
   class wisdom {
   public:
 	string content;
+	int CalcPunct();
 	static  wisdom* In(ifstream &ifst);	
-	void OutData(ofstream &ofst);	
+	void OutData(ofstream &ofst);
     virtual void InData(ifstream &ifst) = 0;  // ввод
     virtual void Out(ofstream &ofst) = 0;     // вывод
   };

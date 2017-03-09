@@ -207,7 +207,15 @@
 				>
 			</File>
 			<File
+				RelativePath=".\wisdom_CalcPunct.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\wisdom_In.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\wisdom_Out.cpp"
 				>
 			</File>
 		</Filter>
@@ -248,6 +256,10 @@
 			>
 			<File
 				RelativePath=".\in.txt"
+				>
+			</File>
+			<File
+				RelativePath=".\out.txt"
 				>
 			</File>
 		</Filter>
